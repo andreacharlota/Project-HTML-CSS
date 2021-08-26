@@ -1,0 +1,17 @@
+@media (max-width: 600px){
+  .menu-icon{
+    display: block;
+    padding: 30px 30px 0 30px;
+    width: 50px;
+  }
+
+  .nav-kanan{
+    display: none;
+  }
+}
+
+@media (max-width: 1000px){
+  .nav-kanan ul li{
+    padding: 0 .1%;
+  }
+}
