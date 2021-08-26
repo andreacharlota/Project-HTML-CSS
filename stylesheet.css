@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto medium';
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'roboto medium';
+    src: url("Roboto/roboto-medium-webfont.woff") format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'roboto regular';
+    src: url("Roboto/roboto-regular-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'roboto light';
+    src: url("Roboto/roboto-light-webfont.woff") format('woff');
+}
+
+/* Awal coding */
+
+/* Awal Navbar */
+nav{
+    background-color: rgba(52, 64, 64, 1);
+    display: flex;
+    justify-content: space-between;
+    max-height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+}
+
+.nav-kiri{
+    padding-left: 1.5%;
+}
+
+nav .nav-kiri img{
+    width: 20%;
+}
+
+.menu-icon{
+  display: none;
+  color: white;
+  float: right;
+}
+
+.nav-kanan{
+    width: 40%;
+}
+
+.nav-kanan ul li a{
+    color: white;
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 20px;
+}
+
+.nav-kanan ul li{
+    background-color: rgba(52, 64, 64);
+    transition: .3s ease-in;
+}
+
+.nav-kanan ul li:hover{
+    background-color: #586d6d;
+}
+
+nav .nav-kanan ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+}
+/* Akhir Navbar */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*  Awal about us */
+.about-us{
+    padding-top: 80px;
+    text-align: center;
+    height: 600px;
+}
+
+.about-head{
+    padding-top: 3%;
+}
+
+.about-head h1{
+    font-family: 'roboto regular', sans-serif;
+    font-weight: normal;
+    letter-spacing: 12px;
+    margin-top: 2%;
+    font-size: 2.2em;
+    color:rgba(52, 64, 64, 1)
+}
+
+.about-head p{
+    font-family: 'roboto light';
+    margin: 20pt 0;
+    text-align: center;
+}
+
+.about-logo img{
+    width: 40%;
+}
+/*  Akhir about us*/
+
+/* Awal member */
+.member-main{
+  margin:40px;
+}
+
+.member-head h1{
+    text-align: center;
+    font-family: 'roboto regular', sans-serif;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-top: 2%;
+    font-size: 3em;
+    color:rgba(52, 64, 64, 1)
+}
+
+.member-section1{
+    background-image: url('../Assets/bg-member.png');
+    background-size: cover;
+    display: flex;
+    padding-top:80px;
+    padding-bottom:40px;
+    padding-left:40px;
+    justify-content: space-evenly;
+}
+
+.pict-david{
+  padding-top:80px;
+  padding-bottom:40px;
+  padding-left:40px;
+  padding-right: 20px;
+}
+
+.intro-david h3{
+    text-align: center;
+    margin-block-start: 35%;
+}
+
+.intro-david p{
+    text-align: center;
+    margin-block-end: 20%;
+}
+
+.intro-david a{
+  text-align: center;
+  margin-block-end:20%;
+  text-decoration: none;
+  color:black;
+  margin-inline-start: 20%;
+}
+
+.intro-david img{
+    width: 20px;
+    height: 20px;
+}
+
+.member-section2{
+    background-image: url('../Assets/bg-member(1).png');
+    background-size: cover;
+    display: flex;
+    padding-top:80px;
+    padding-bottom:40px;
+    padding-right:40px;
+    padding-left: 70px;
+    justify-content: space-evenly;
+}
+
+.pict-sean{
+  padding-top:80px;
+  padding-bottom:40px;
+  padding-left:30px;
+  padding-right: 40px;
+}
+
+.intro-sean h3{
+    text-align: center;
+    margin-block-start: 35%;
+}
+
+.intro-sean p{
+    text-align: center;
+    margin-block-end: 20%;
+    font-style: normal;
+}
+
+.intro-sean img{
+    width:20px;
+    height:20px;
+}
+
+.intro-sean a{
+  text-decoration: none;
+  color:black;
+}
+
+.member-section3{
+    background-image: url('../Assets/bg-member.png');
+    background-size: cover;
+    display: flex;
+    padding-top:80px;
+    padding-bottom:40px;
+    padding-left:40px;
+    justify-content: space-evenly;
+}
+
+.intro-alif h3{
+    text-align: center;
+    margin-block-start: 35%;
+}
+
+.intro-alif p{
+    text-align: center;
+    margin-block-end: 20%;
+}
+
+.intro-alif a{
+  text-align: center;
+  margin-block-end:20%;
+  text-decoration: none;
+  color:black;
+  margin-inline-start: 20%;
+}
+
+.intro-alif img{
+    width: 20px;
+    height: 20px;
+}
+
+.pict-alif{
+  padding-top:80px;
+  padding-bottom:40px;
+  padding-left:40px;
+  padding-right: 20px;
+}
+
+.member-section4{
+    background-image: url('../Assets/bg-member(1).png');
+    background-size: cover;
+    display: flex;
+    padding-top:80px;
+    padding-bottom:40px;
+    padding-right:40px;
+    padding-left: 70px;
+    justify-content: space-evenly;
+}
+
+.intro-salsa h3{
+  text-align: center;
+  margin-block-start: 35%;
+}
+
+.intro-salsa p{
+    text-align: center;
+    margin-block-end: 20%;
+}
+
+.intro-salsa img{
+    width: 20px;
+    height: 20px;
+}
+
+.intro-salsa a{
+  text-align: center;
+  margin-block-end:20%;
+  text-decoration: none;
+  color:black;
+  margin-inline-start: 20%;
+}
+
+.pict-salsa{
+  padding-top:80px;
+  padding-bottom:40px;
+  padding-left:30px;
+  padding-right: 40px;
+}
+
+.member-section5{
+    background-image: url('../Assets/bg-member.png');
+    background-size: cover;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    justify-content: space-evenly;  
+}
+
+.intro-andrea h3{
+  text-align: center;
+  margin-block-start: 25%;
+}
+
+.intro-andrea p{
+  text-align: center;
+  margin-block-end: 20%; 
+}
+
+.pict-andrea{
+  padding-top:80px;
+  padding-bottom:40px;
+  padding-left:40px;
+  padding-right: 20px;
+}
+
+.intro-andrea a{
+  text-decoration: none;
+  color: black;
+  margin-inline-start: 20%;
+  margin-block-end:20%;
+  text-align: center;
+}
+
+.intro-andrea img{
+  width: 20px;
+  height: 20px;
+}
+
+.member-section, .intro-member{
+    padding-top: 30%;
+}
+
+.containers{
+  text-align: center;
+  font-size:30px;
+  color:rgba(52, 64, 64, 1);
+}
+
+.address{
+  text-align: center;
+  font-size:30px;
+  color:rgba(52, 64, 64, 1);
+  margin-bottom:10%;
+}
+/* Akhir member */
+
+.navk{
+    display: flex;
+    line-height: 50px;
+    padding: 0 20px;
+    background-color: rgba(52, 64, 64, 1);
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navk ul li a{
+  text-decoration: none;
+  color:white;
+  margin:20px;
+  line-height: 50px;
+}
+
+.list img{
+  width: 20px;
+  height: 20px;
+}
+
+.copyright{
+  color:white;
+  line-height: 50px;
+  margin:20px;
+  text-align:center;
+}
+
+.copyright p{
+  line-height: 50px;
+  margin-bottom: 40px;
+  margin:20px;
+  
+}
+
+.logoend img{
+  width:35%;
+  height:20%;
+}
